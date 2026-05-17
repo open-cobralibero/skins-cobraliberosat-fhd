@@ -156,7 +156,8 @@
     <include filename="skin_templates.xml"/>
     <include filename="skin_plugins.xml"/>
     <!-- Volume -->
-    <screen name="Volume" title="Volume" position="30,360" size="30,330" backgroundColor="transpBlack" zPosition="1" flags="wfNoBorder">
+    <!-- Volume -->
+    <screen name="Volume" title="Volume" position="15,360" size="30,330" backgroundColor="transpBlack" zPosition="1" flags="wfNoBorder">
         <widget name="Volume" pixmap="infobar/volumeslider.png" position="0,3" size="30,300" orientation="orBottomToTop" transparent="1" zPosition="1"/>
         <ePixmap pixmap="infobar/vol_box.png" position="0,303" size="30,24" alphatest="on" zPosition="4"/>
     </screen>
@@ -384,7 +385,6 @@
     </screen>
     <!-- EPG Stuff -->
     <screen name="EPGSelection" position="fill" flags="wfNoBorder">
-    <ePixmap pixmap="/usr/share/enigma2/logos/boxlogo.svg" position="600,25" zPosition="5" size="136,64" transparent="1" alphatest="blend" />
         <panel name="SelectionTemplate"/>
         <panel name="KeyMenuTemplate"/>
         <panel name="KeyInfoTemplate"/>
@@ -420,7 +420,6 @@
         </widget>
     </screen>
     <screen name="EventView" title="Eventview" position="fill" flags="wfNoBorder">
-    <ePixmap pixmap="/usr/share/enigma2/logos/boxlogo.svg" position="600,25" zPosition="5" size="136,64" transparent="1" alphatest="blend" />
         <panel name="SelectionTemplate"/>
         <panel name="KeyMenuTemplate"/>
         <widget name="epg_eventname" position="780,100" size="1110,70" transparent="1" font="Regular;30" halign="left" foregroundColor="foreground"/>
@@ -452,7 +451,6 @@
         </widget>
     </screen>
     <screen name="EPGSelectionMulti" title="EPG Selection" position="fill" flags="wfNoBorder">
-    <ePixmap pixmap="/usr/share/enigma2/logos/boxlogo.svg" position="600,25" zPosition="5" size="136,64" transparent="1" alphatest="blend" />
         <panel name="SelectionTemplate"/>
         <panel name="KeyMenuInfoTemplate"/>
         <widget name="date" position="780,100" size="1110,38" font="Regular;34" transparent="1" valign="center" halign="center"/>
@@ -472,7 +470,6 @@
     </screen>
     <!-- EPG Search -->
     <screen name="EPGSearch" title="EPG Search" position="fill" flags="wfNoBorder">
-    <ePixmap pixmap="/usr/share/enigma2/logos/boxlogo.svg" position="600,25" zPosition="5" size="136,64" transparent="1" alphatest="blend" />
         <panel name="SelectionTemplate"/>
         <panel name="KeyMenuTemplate"/>
         <widget name="list" position="780,100" size="1110,912" itemHeight="38" setEventItemFont="Regular;32" setEventTimeFont="Regular;32" setColWidths="120,220" setColGap="40" setIconDistance="-5" setPiconSize="50,30" setPiconDistance="0" setPboxDistance="80" backgroundColor="background" transparent="1" scrollbarMode="showOnDemand"/>
@@ -488,7 +485,6 @@
         </widget>
     </screen>
     <screen name="EPGSearchSetup" title="EPGSearch Setup" position="fill" flags="wfNoBorder">
-    <ePixmap pixmap="/usr/share/enigma2/logos/boxlogo.svg" position="600,25" zPosition="5" size="136,64" transparent="1" alphatest="blend" />
         <panel name="SelectionTemplate"/>
         <widget source="help" render="Label" position="30,570" size="720,280" backgroundColor="background" transparent="1" font="Regular;30"/>
         <widget name="config" position="780,105" size="1110,675" itemHeight="38" font="Regular;28" backgroundColor="background" transparent="1" scrollbarMode="showOnDemand"/>
@@ -502,7 +498,6 @@
     </screen>
     <!-- GraphMultiEPG -->
     <screen name="GraphMultiEPG" title="Electronic Program Guide" position="fill" flags="wfNoBorder">
-    <ePixmap pixmap="/usr/share/enigma2/logos/boxlogo.svg" position="600,25" zPosition="5" size="136,64" transparent="1" alphatest="blend" />
         <panel name="SelectionTemplate"/>
         <panel name="KeyMenuTemplate"/>
         <panel name="KeyInfoTemplate"/>
@@ -544,7 +539,6 @@
         <widget name="timeline_now" pixmap="window/timeline-now.png" position="6,593" size="28,422" zPosition="2" alphatest="blend"/>
     </screen>
     <screen name="GraphMultiEPGList" title="Electronic Program Guide" position="fill" flags="wfNoBorder">
-    <ePixmap pixmap="/usr/share/enigma2/logos/boxlogo.svg" position="600,25" zPosition="5" size="136,64" transparent="1" alphatest="blend" />
         <panel name="BasicTemplate"/>
         <panel name="KeyMenuTemplate"/>
         <panel name="KeyInfoTemplate"/>
@@ -563,7 +557,6 @@
         <widget name="timeline_now" pixmap="window/timeline-now.png" position="6,193" size="28,826" zPosition="2" alphatest="blend"/>
     </screen>
     <screen name="GraphMultiEpgSetup" position="fill" title="Electronic Program Guide Setup" flags="wfNoBorder">
-    <ePixmap pixmap="/usr/share/enigma2/logos/boxlogo.svg" position="600,25" zPosition="5" size="136,64" transparent="1" alphatest="blend" />
         <panel name="PigTemplate"/>
         <panel name="CancelOKTemplate"/>
         <widget name="config" position="780,100" size="1110,912" itemHeight="38" font="Regular;28" scrollbarMode="showOnDemand"/>
@@ -575,45 +568,31 @@
     </screen>
     <!-- Menus -->
     <screen flags="wfNoBorder" name="Menu" position="fill">
-    <ePixmap pixmap="/usr/share/enigma2/logos/boxlogo.svg" position="600,25" zPosition="5" size="136,64" transparent="1" alphatest="blend" />
         <panel name="MenuTemplate"/>
     </screen>
     <screen flags="wfNoBorder" name="menu_mainmenu" position="fill">
-    <ePixmap pixmap="/usr/share/enigma2/logos/boxlogo.svg" position="600,25" zPosition="5" size="136,64" transparent="1" alphatest="blend" />
-    <ePixmap pixmap="skins-cobraliberosat-fhd/cobra_logo.png" position="40,859" size="332,60" alphatest="blend" />
-  <ePixmap pixmap="/usr/share/enigma2/logos/boxlogo.svg" position="600,25" zPosition="5" size="136,64" transparent="1" alphatest="blend" />
         <panel name="MenuTemplate"/>
     </screen>
     <screen flags="wfNoBorder" name="MenuSort" position="fill">
-    <ePixmap pixmap="/usr/share/enigma2/logos/boxlogo.svg" position="600,25" zPosition="5" size="136,64" transparent="1" alphatest="blend" />
-    <ePixmap pixmap="skins-cobraliberosat-fhd/cobra_logo.png" position="40,859" size="332,60" alphatest="blend" />
         <panel name="MenuTemplate"/>
         <ePixmap pixmap="buttons/key_prev.png" alphatest="blend" position="30,1031" size="52,38"/>
         <ePixmap pixmap="buttons/key_next.png" alphatest="blend" position="82,1031" size="52,38"/>
     </screen>
     <screen flags="wfNoBorder" name="menu_setup" position="fill">
-    <ePixmap pixmap="/usr/share/enigma2/logos/boxlogo.svg" position="600,25" zPosition="5" size="136,64" transparent="1" alphatest="blend" />
-    <ePixmap pixmap="skins-cobraliberosat-fhd/cobra_logo.png" position="40,859" size="332,60" alphatest="blend" />
         <panel name="MenuTemplate"/>
     </screen>
     <screen flags="wfNoBorder" name="menu_system" position="fill">
-    <ePixmap pixmap="/usr/share/enigma2/logos/boxlogo.svg" position="600,25" zPosition="5" size="136,64" transparent="1" alphatest="blend" />
-    <ePixmap pixmap="skins-cobraliberosat-fhd/cobra_logo.png" position="40,859" size="332,60" alphatest="blend" />
         <panel name="MenuTemplate"/>
     </screen>
     <screen flags="wfNoBorder" name="menu_information" position="fill">
-    <ePixmap pixmap="/usr/share/enigma2/logos/boxlogo.svg" position="600,25" zPosition="5" size="136,64" transparent="1" alphatest="blend" />
-    <ePixmap pixmap="skins-cobraliberosat-fhd/cobra_logo.png" position="40,859" size="332,60" alphatest="blend" />
         <panel name="MenuTemplate"/>
     </screen>
     <screen flags="wfNoBorder" name="menu_scan" position="fill">
-    <ePixmap pixmap="/usr/share/enigma2/logos/boxlogo.svg" position="600,25" zPosition="5" size="136,64" transparent="1" alphatest="blend" />
-    <ePixmap pixmap="skins-cobraliberosat-fhd/cobra_logo.png" position="40,859" size="332,60" alphatest="blend" />
         <panel name="MenuTemplate"/>
     </screen>
     <!--Setup Configs -->
     <screen name="Setup" title="Setup" position="fill" flags="wfNoBorder">
-    <ePixmap pixmap="/usr/share/enigma2/logos/boxlogo.svg" position="600,25" zPosition="5" size="136,64" transparent="1" alphatest="blend" />
+
         <panel name="PigTemplate"/>
         <panel name="VKeyIconPanel"/>
         <!--widget name="HelpWindow" pixmap="buttons/vkey_icon.png" position="75,615" zPosition="1" size="1,1" transparent="1" alphatest="on" /-->
@@ -622,8 +601,6 @@
     </screen>
     <!-- Scan setup -->
     <screen name="ScanSetup" position="fill" flags="wfNoBorder">
-    <ePixmap pixmap="/usr/share/enigma2/logos/boxlogo.svg" position="600,25" zPosition="5" size="136,64" transparent="1" alphatest="blend" />
-    <ePixmap pixmap="skins-cobraliberosat-fhd/cobra_logo.png" position="40,859" size="332,60" alphatest="blend" />
         <panel name="PigTemplate"/>
         <widget name="config" position="780,105" size="1110,912" itemHeight="38" font="Regular;28" scrollbarMode="showOnDemand"/>
         <widget name="introduction" position="0,0" size="0,0"/>
@@ -637,8 +614,6 @@
     </screen>
     <!-- Service Scan -->
     <screen name="ServiceScan" title="Service scan" position="fill" flags="wfNoBorder">
-    <ePixmap pixmap="/usr/share/enigma2/logos/boxlogo.svg" position="600,25" zPosition="5" size="136,64" transparent="1" alphatest="blend" />
-    <ePixmap pixmap="skins-cobraliberosat-fhd/cobra_logo.png" position="40,859" size="332,60" alphatest="blend" />
         <panel name="BasicTemplate"/>
         <widget source="FrontendInfo" render="Pixmap" pixmap="icons/scan-s.png" position="30,105" size="96,96" zPosition="2" transparent="1" alphatest="on">
             <convert type="FrontendInfo">TYPE</convert>
@@ -664,7 +639,6 @@
     </screen>
     <!-- FastScan -->
     <screen name="FastScanScreen" title="Fast Scan" position="fill" flags="wfNoBorder">
-    <ePixmap pixmap="/usr/share/enigma2/logos/boxlogo.svg" position="600,25" zPosition="5" size="136,64" transparent="1" alphatest="blend" />
         <panel name="PigTemplate"/>
         <widget name="config" position="780,105" size="1110,600" itemHeight="38" font="Regular;28" scrollbarMode="showOnDemand"/>
         <widget name="introduction" position="780,975" size="1110,37" font="Regular;33" halign="center"/>
@@ -677,8 +651,6 @@
     </screen>
     <!-- RecordPathSettings -->
     <screen name="RecordPathsSettings" position="fill" flags="wfNoBorder">
-    <ePixmap pixmap="/usr/share/enigma2/logos/boxlogo.svg" position="600,25" zPosition="5" size="136,64" transparent="1" alphatest="blend" />
-    <ePixmap pixmap="skins-cobraliberosat-fhd/cobra_logo.png" position="40,859" size="332,60" alphatest="blend" />
         <panel name="PigTemplate"/>
         <widget name="config" position="780,100" size="1110,912" itemHeight="38" font="Regular;28" scrollbarMode="showOnDemand"/>
     </screen>
@@ -690,7 +662,6 @@
     </screen>
     <!-- ChoiceBox -->
     <screen name="ChoiceBox" title="" position="fill" flags="wfNoBorder">
-    <ePixmap pixmap="/usr/share/enigma2/logos/boxlogo.svg" position="600,25" zPosition="5" size="136,64" transparent="1" alphatest="blend" />
         <panel name="PigTemplate"/>
         <panel name="TextTemplate"/>
         <widget name="list" position="780,100" size="1110,912" scrollbarMode="showOnDemand"/>
@@ -698,7 +669,6 @@
     </screen>
     <!-- Extensions menu -->
     <screen name="ExtensionsList" title="" position="fill" flags="wfNoBorder">
-    <ePixmap pixmap="/usr/share/enigma2/logos/boxlogo.svg" position="600,25" zPosition="5" size="136,64" transparent="1" alphatest="blend" />
         <panel name="PigTemplate"/>
         <panel name="TextTemplate"/>
         <ePixmap pixmap="buttons/key_prev.png" alphatest="blend" position="30,1031" size="52,38"/>
@@ -707,14 +677,10 @@
     </screen>
     <!-- SelectImage -->
     <screen name="SelectImage" title="" position="fill" flags="wfNoBorder">
-    <ePixmap pixmap="/usr/share/enigma2/logos/boxlogo.svg" position="600,25" zPosition="5" size="136,64" transparent="1" alphatest="blend" />
-    <ePixmap pixmap="skins-cobraliberosat-fhd/cobra_logo.png" position="40,859" size="332,60" alphatest="blend" />
         <panel name="ChoiceBox"/>
     </screen>
     <!-- SortbyChoiceBox -->
     <screen name="SortbyChoiceBox" title="" position="fill" flags="wfNoBorder">
-    <ePixmap pixmap="/usr/share/enigma2/logos/boxlogo.svg" position="600,25" zPosition="5" size="136,64" transparent="1" alphatest="blend" />
-    <ePixmap pixmap="skins-cobraliberosat-fhd/cobra_logo.png" position="40,859" size="332,60" alphatest="blend" />
         <panel name="ChoiceBox"/>
         <ePixmap pixmap="icons/default.png" position="1838,108" zPosition="2" size="52,30" transparent="1" alphatest="blend"/>
         <ePixmap pixmap="icons/newtop.png" position="1838,146" zPosition="2" size="52,30" transparent="1" alphatest="blend"/>
