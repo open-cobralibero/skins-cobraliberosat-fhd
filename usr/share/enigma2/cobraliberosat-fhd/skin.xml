@@ -207,7 +207,7 @@
         <eLabel text="Tuner :" position="756,1045" size="95,28" font="Regular; 22" backgroundColor="background" halign="left" transparent="1" zPosition="1"/>
         <eLabel text="Temp :" position="832,1011" size="95,28" font="Regular; 22" backgroundColor="background" halign="left" transparent="1" zPosition="1"/>
         <widget source="session.MSNWeather" render="MSNWeatherPixmap" position="1454,884" size="40,40" transparent="1" zPosition="1" alphatest="blend">
-            <convert type="MSNWeather">weathericon,current,/usr/share/enigma2/skins-cobraliberosat-fhd/weather_icons/,png</convert>
+            <convert type="MSNWeather">weathericon,current,/usr/share/enigma2/cobraliberosat-fhd/weather_icons/,png</convert>
         </widget>
         <widget source="session.MSNWeather" render="Label" position="1383,887" size="66,30" backgroundColor="background" transparent="1" zPosition="1" font="Regular; 22" halign="center">
             <convert type="MSNWeather">temperature_current</convert>
@@ -2114,7 +2114,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth) // 2, orgpos.y() + 
     </screen>
     <!-- QuitMainloopScreen -->
    <screen name="QuitMainloopScreen" position="fill" flags="wfNoBorder">
-    <ePixmap pixmap="skins-cobraliberosat-fhd/infobar/shutdown.png" position="c-200,c-318" size="400,318" scale="1" alphatest="blend" />
+    <ePixmap pixmap="cobraliberosat-fhd/infobar/shutdown.png" position="c-200,c-318" size="400,318" scale="1" alphatest="blend" />
     <widget name="text" position="c-885,c+15" size="1770,150" font="Regular;30" halign="center" />
     <eLabel text="Skin: mod. By.COBRALIBEROSAT" position="center,130" size="1000,60" font="Regular;46" halign="center" foregroundColor="#00BFFF" />
     </screen>

@@ -42,7 +42,7 @@
     <ePixmap name="" position="1530,40" size="266,50" zPosition="1" pixmap="infobar/dish150.png" alphatest="on" />
     <ePixmap pixmap="/usr/share/enigma2/logos/boxlogo.svg" position="1100,25" zPosition="5" size="136,50" backgroundColor="background" transparent="1" alphatest="blend" halign="center"/>
      <ePixmap pixmap="/usr/share/enigma2/logos/boxlogo.png" position="1100,25" zPosition="5" size="136,64" backgroundColor="background" transparent="1" alphatest="blend" halign="center"/> 
-     <ePixmap pixmap="skins-cobraliberosat-fhd/cobra_logo.png" position="40,759" size="332,60" backgroundColor="background" transparent="1" alphatest="blend" halign="center"/> 
+     <ePixmap pixmap="cobraliberosat-fhd/cobra_logo.png" position="40,759" size="332,60" backgroundColor="background" transparent="1" alphatest="blend" halign="center"/> 
     </screen>
     <screen name="BasicTemplate">
         <panel name="TopTemplate"/>
