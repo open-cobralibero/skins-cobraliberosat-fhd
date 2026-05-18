@@ -37,12 +37,9 @@
         <widget source="global.CurrentTime" render="Label" position="1440,52" size="450,37" backgroundColor="secondBG" transparent="1" zPosition="1" font="Regular;24" valign="center" halign="right">
             <convert type="ClockToText">Date</convert>
         </widget>
-        <eLabel text="COBRALIBEROSAT @ " position="1265,58" size="266,50" font="Bold; 24" backgroundColor="background" foregroundColor="yellowsoft" halign="center" transparent="1" zPosition="1"/>
-    <eLabel text="Welcome to ...   BY " position="1265,30" size="266,50" font="Bold; 22" backgroundColor="background" foregroundColor="yellowsoft" halign="center" transparent="1" zPosition="1"/>
-    <ePixmap name="" position="1530,40" size="266,50" zPosition="1" pixmap="infobar/dish150.png" alphatest="on" />
-    <ePixmap pixmap="/usr/share/enigma2/logos/boxlogo.svg" position="1100,25" zPosition="5" size="136,50" backgroundColor="background" transparent="1" alphatest="blend" halign="center"/>
-     <ePixmap pixmap="/usr/share/enigma2/logos/boxlogo.png" position="1100,25" zPosition="5" size="136,64" backgroundColor="background" transparent="1" alphatest="blend" halign="center"/> 
-     <ePixmap pixmap="cobraliberosat-fhd/cobra_logo.png" position="40,759" size="332,60" backgroundColor="background" transparent="1" alphatest="blend" halign="center"/> 
+    <ePixmap name="" position="1500,40" size="266,50" zPosition="1" pixmap="infobar/dish150.png" alphatest="on" />
+    <ePixmap pixmap="/usr/share/enigma2/logos/boxlogo.svg" position="1320,30" zPosition="5" size="136,50" backgroundColor="background" transparent="1" alphatest="blend" halign="center"/>
+     <ePixmap pixmap="/usr/share/enigma2/logos/boxlogo.png" position="1310,30" zPosition="5" size="136,64" backgroundColor="background" transparent="1" alphatest="blend" halign="center"/> 
     </screen>
     <screen name="BasicTemplate">
         <panel name="TopTemplate"/>
@@ -285,7 +282,7 @@
             <convert type="EventTime">Remaining</convert>
             <convert type="RemainingToText">InMinutes</convert>
         </widget>
-        <widget source="session.Event_Next" render="Label" position="1246,957" size="105,45" backgroundColor="secondBG" transparent="1" zPosition="1" foregroundColor="#FF0000" font="Regular; 26" halign="left">
+        <widget source="session.Event_Next" render="Label" position="1246,957" size="105,45" backgroundColor="secondBG" transparent="1" zPosition="1" foregroundColor="#00FF00" font="Regular; 26" halign="left">
             <convert type="EventTime">StartTime</convert>
             <convert type="ClockToText">Format:%H:%M</convert>
         </widget>
