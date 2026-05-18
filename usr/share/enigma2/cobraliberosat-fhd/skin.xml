@@ -571,7 +571,7 @@
     </screen>
     <screen flags="wfNoBorder" name="menu_mainmenu" position="fill">
      <ePixmap pixmap="cobraliberosat-fhd/cobra_logo.png" position="40,759" size="332,60" backgroundColor="background" transparent="1" alphatest="blend" halign="center"/> 
-     <eLabel name="" position="1300,980" size="600,60" text="Skins: mod. By COBRALIBEROSAT ®" font="Regular;32" halign="left" zPosition="3" foregroundColor="yellowsoft" backgroundColor="transparent" transparent="1" />
+     <eLabel name="" position="1300,980" size="600,60" text="Skins: mod. By..COBRALIBEROSAT ®" font="Regular;32" halign="left" zPosition="3" foregroundColor="yellowsoft" backgroundColor="transparent" transparent="1" />
         <panel name="MenuTemplate"/>
     </screen>
     <screen flags="wfNoBorder" name="MenuSort" position="fill">
@@ -2118,7 +2118,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth) // 2, orgpos.y() + 
    <screen name="QuitMainloopScreen" position="fill" flags="wfNoBorder">
     <ePixmap pixmap="cobraliberosat-fhd/infobar/shutdown.png" position="c-200,c-318" size="400,318" scale="1" alphatest="blend" />
     <widget name="text" position="c-885,c+15" size="1770,150" font="Regular;30" halign="center" />
-    <eLabel text="Skin: mod. By.COBRALIBEROSAT" position="center,130" size="1000,60" font="Regular;46" halign="center" foregroundColor="#00BFFF" />
+    <eLabel text="Skins: mod. By.COBRALIBEROSAT ®" position="center,130" size="1000,60" font="Regular;46" halign="center" foregroundColor="#00BFFF" />
     </screen>
     <!-- QuickSubtitlesConfigMenu -->
     <screen name="QuickSubtitlesConfigMenu" position="20,30" size="924,462" title="Subtitle settings" backgroundColor="#7f000000" flags="wfNoBorder">
