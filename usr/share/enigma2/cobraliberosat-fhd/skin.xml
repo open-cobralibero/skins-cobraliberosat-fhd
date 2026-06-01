@@ -313,40 +313,27 @@
         <widget source="session.Event_Next" render="Label" position="975,260" size="915,560" font="Regular;30" halign="block" zPosition="1" transparent="1">
             <convert type="EventName">FullDescription</convert>
         </widget>
-        <!-- METEO FIX MINIMO -->
-
+       <!-- Temperatura -->
 <widget source="session.MSNWeather" render="Label"
-    position="1600,750"
+    position="190,750"
     size="120,40"
     font="Regular;30"
+    foregroundColor="#FF0000"
     transparent="1"
     zPosition="50">
     <convert type="MSNWeather">temperature_current</convert>
 </widget>
+
+<!-- Città -->
 <widget source="session.MSNWeather" render="Label"
-    position="1500,790"
-    size="300,35"
-    font="Regular;24"
+    position="100,790"
+    size="360,95"
+    font="Regular;26"
     halign="center"
+    foregroundColor="#FFA04D"
     transparent="1"
     zPosition="50">
     <convert type="MSNWeather">city</convert>
-</widget>
-<widget source="session.MSNWeather" render="Label"
-    position="1450,930"
-    size="400,35"
-    font="Regular;24"
-    halign="center"
-    transparent="1"
-    zPosition="50">
-    <convert type="MSNWeather">weathertext</convert>
-</widget>
-<widget source="session.MSNWeather" render="Pixmap"
-    position="1480,500"
-    size="150,150"
-    zPosition="60"
-    transparent="1">
-    <convert type="MSNWeather">icon</convert>
 </widget>
         <panel name="InfoBarTemplate"/>
     </screen>
