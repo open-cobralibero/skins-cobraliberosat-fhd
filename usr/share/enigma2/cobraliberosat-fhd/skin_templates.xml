@@ -37,7 +37,7 @@
         <widget source="global.CurrentTime" render="Label" position="1440,52" size="450,37" backgroundColor="secondBG" transparent="1" zPosition="1" font="Regular;24" valign="center" halign="right">
             <convert type="ClockToText">Date</convert>
         </widget>
-    <ePixmap name="" position="1500,40" size="266,50" zPosition="1" pixmap="infobar/dish150.png" alphatest="on" />
+    <ePixmap name="" position="1500,30" size="266,50" zPosition="1" pixmap="infobar/dish150.png" alphatest="on" />
     <ePixmap pixmap="/usr/share/enigma2/logos/boxlogo.svg" position="1320,30" zPosition="5" size="136,50" backgroundColor="background" transparent="1" alphatest="blend" halign="center"/>
      <ePixmap pixmap="/usr/share/enigma2/logos/boxlogo.png" position="1310,30" zPosition="5" size="136,64" backgroundColor="background" transparent="1" alphatest="blend" halign="center"/> 
     </screen>
